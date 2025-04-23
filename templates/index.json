@@ -419,7 +419,9 @@
     },
     "before_after_image_Uqc9rX": {
       "type": "before-after-image",
-      "custom_css": [],
+      "custom_css": [
+        "* {font-family: Radley;}"
+      ],
       "settings": {
         "full_width": true,
         "subheading": "",
