@@ -150,12 +150,13 @@
   .hero-images-inner-pc-{{section.id}} {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 0px;
     width: 100%;
   }
 
   .hero-image-pc-{{section.id}} {
     border-radius: {{ image_border_radius }}px;
+    border: {{ image_border_width }}px {{ image_border_style }} {{ image_border_color }};
     overflow: hidden;
   }
 
