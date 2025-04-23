@@ -954,6 +954,100 @@
         "background": "",
         "background_gradient": ""
       }
+    },
+    "carourou_Nh4fPq": {
+      "type": "carourou",
+      "blocks": {
+        "image_left_zLNfGV": {
+          "type": "image_left",
+          "settings": {}
+        },
+        "image_left_Ua6Yay": {
+          "type": "image_left",
+          "settings": {}
+        },
+        "image_left_HycePe": {
+          "type": "image_left",
+          "settings": {}
+        },
+        "image_left_PKKVnA": {
+          "type": "image_left",
+          "settings": {}
+        },
+        "image_left_n7nRdq": {
+          "type": "image_left",
+          "settings": {}
+        },
+        "image_right_jKqAFa": {
+          "type": "image_right",
+          "settings": {}
+        },
+        "image_right_zYX7V6": {
+          "type": "image_right",
+          "settings": {}
+        },
+        "image_right_fbcCzj": {
+          "type": "image_right",
+          "settings": {}
+        },
+        "image_right_fnPJ88": {
+          "type": "image_right",
+          "settings": {}
+        },
+        "image_right_XrGXxX": {
+          "type": "image_right",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "image_left_zLNfGV",
+        "image_left_Ua6Yay",
+        "image_left_HycePe",
+        "image_left_PKKVnA",
+        "image_left_n7nRdq",
+        "image_right_jKqAFa",
+        "image_right_zYX7V6",
+        "image_right_fbcCzj",
+        "image_right_fnPJ88",
+        "image_right_XrGXxX"
+      ],
+      "settings": {
+        "heading": "Nous prenons soin de votre santé.",
+        "heading_size": 46,
+        "heading_weight": "bold",
+        "heading_color": "#000000",
+        "heading_font": "josefin_sans_n4",
+        "heading_size_mobile": 24,
+        "text": "Des résultats visibles en 2h, votre visage sublimé,\ngrâce à l’expertise dermato-coréenne.",
+        "text_size": 18,
+        "text_weight": "normal",
+        "text_color": "#000000",
+        "text_font": "josefin_sans_n4",
+        "text_size_mobile": 16,
+        "button_text": "Commander",
+        "button_url": "",
+        "button_size": 16,
+        "button_weight": "normal",
+        "button_font": "josefin_sans_n4",
+        "button_bg_color": "#000000",
+        "button_text_color": "#ffffff",
+        "button_border_radius": 4,
+        "button_border_width": 1,
+        "button_border_color": "#000000",
+        "button_border_style": "solid",
+        "button_size_mobile": 16,
+        "image_border_radius": 24,
+        "image_border_width": 0,
+        "image_border_color": "#000000",
+        "image_border_style": "solid",
+        "animation_speed": 100,
+        "layout_margin_top": 0,
+        "layout_margin_bottom": 0,
+        "layout_background": "rgba(0,0,0,0)",
+        "layout_gradient_on_image": "rgba(0,0,0,0)",
+        "layout_enable_gradient_on_image": true,
+        "layout_enable_max_width": false
+      }
     }
   },
   "order": [
@@ -972,6 +1066,7 @@
     "featured-product",
     "feature-chart",
     "faq",
-    "media_grid_dEkg9p"
+    "media_grid_dEkg9p",
+    "carourou_Nh4fPq"
   ]
 }
