@@ -163,9 +163,12 @@
   .hero-image-pc-{{section.id}} img,
   .hero-image-pc-{{section.id}} svg {
     display: block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     width: 120%;
     height: 120%;
-    object-fit: fill;
+    object-fit: cover;
   }
 
   @media(min-width: 1024px) {
