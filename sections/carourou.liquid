@@ -160,18 +160,14 @@
     overflow: hidden;
   }
 
-.hero-image-pc-{{section.id}} {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  .hero-image-pc-{{section.id}} img,
+  .hero-image-pc-{{section.id}} svg {
+    display: in-block;
+    width: 120%;
+    height: 120%;
+    object-fit: cover;
+  }
 
-.hero-image-pc-{{section.id}} img,
-.hero-image-pc-{{section.id}} svg {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
   @media(min-width: 1024px) {
 
     .section-pc-{{section.id}} {
