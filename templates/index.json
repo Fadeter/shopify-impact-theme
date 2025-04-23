@@ -115,6 +115,333 @@
         "layout_enable_max_width": false
       }
     },
+    "rich_text_38AMXL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_q4KBqc": {
+          "type": "heading",
+          "settings": {
+            "text": "L’excellence Coréenne à votre service",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": "linear-gradient(133deg, rgba(26, 27, 30, 1), rgba(26, 27, 30, 1) 100%)"
+          }
+        },
+        "richtext_gUHgA9": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae sem nec justo facilisis vestibulum. Praesent et lorem ac justo laoreet cursus.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_q4KBqc",
+        "richtext_gUHgA9"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media-grid": {
+      "type": "media-grid",
+      "blocks": {
+        "item-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_18.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        },
+        "item-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_19.jpg",
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        },
+        "item-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_19.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        },
+        "29246d34-c6e0-4373-84f6-b15e57736a00": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_21.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        },
+        "image_WQzH9C": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_23.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "item-1",
+        "item-2",
+        "item-3",
+        "29246d34-c6e0-4373-84f6-b15e57736a00",
+        "image_WQzH9C"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 350,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_TrmMgW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_impiUR": {
+          "type": "heading",
+          "settings": {
+            "text": "Vos produits préférés",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": "linear-gradient(133deg, rgba(26, 27, 30, 1), rgba(26, 27, 30, 1) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "heading_impiUR"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "featured_collection_UjA9Pt": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 3,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "Tous les produits",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "rich_text_UykY3R": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_CkPBye": {
+          "type": "heading",
+          "settings": {
+            "text": "JeuDerm en 3 mots",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": "linear-gradient(133deg, rgba(26, 27, 30, 1), rgba(26, 27, 30, 1) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CkPBye"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "before_after_image_Uqc9rX": {
+      "type": "before-after-image",
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Vos bénéfices visibles en Xh",
+        "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae sem nec justo facilisis vestibulum. Praesent et lorem ac justo laoreet cursus. </p>",
+        "before_image": "shopify://shop_images/image_2025-04-23_205130934.png",
+        "after_image": "shopify://shop_images/image_2025-04-23_205144221.png",
+        "expand_image": false,
+        "text_position": "start",
+        "before_after_text_position": "bottom",
+        "before_text": "Avant",
+        "after_text": "Before",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
+    },
+    "text_with_icons_hKALFV": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_NjkwpP": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/Group_229.svg",
+            "mobile_icon_width": 24,
+            "icon_width": 48,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Crée par des experts",
+            "content": ""
+          }
+        },
+        "item_8m7JyJ": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/Vector-1.svg",
+            "mobile_icon_width": 24,
+            "icon_width": 48,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Ingérdients 100% Coréens",
+            "content": ""
+          }
+        },
+        "item_y9Rbgd": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/icon1.svg",
+            "mobile_icon_width": 24,
+            "icon_width": 48,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Résultats visibles en Xh",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_NjkwpP",
+        "item_8m7JyJ",
+        "item_y9Rbgd"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -259,21 +586,6 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
-      }
-    },
-    "scrolling-text": {
-      "type": "scrolling-text",
-      "settings": {
-        "full_width": true,
-        "text": "Promotion text",
-        "text_size": "large",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 5,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "text_gradient": ""
       }
     },
     "collection-list": {
@@ -442,109 +754,6 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
-      }
-    },
-    "media-grid": {
-      "type": "media-grid",
-      "blocks": {
-        "item-1": {
-          "type": "image",
-          "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item-2": {
-          "type": "image",
-          "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item-3": {
-          "type": "image",
-          "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "29246d34-c6e0-4373-84f6-b15e57736a00": {
-          "type": "image",
-          "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "item-1",
-        "item-2",
-        "item-3",
-        "29246d34-c6e0-4373-84f6-b15e57736a00"
-      ],
-      "settings": {
-        "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
-        "background": "",
-        "background_gradient": ""
       }
     },
     "before-after-image": {
@@ -1060,18 +1269,41 @@
         "background": "",
         "background_gradient": ""
       }
+    },
+    "scrolling-text": {
+      "type": "scrolling-text",
+      "custom_css": [
+        "* {font-family: Radley;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "text": "JeuDerm France",
+        "text_size": "large",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 6,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
+      }
     }
   },
   "order": [
     "carourou_Nh4fPq",
+    "rich_text_38AMXL",
+    "media-grid",
+    "rich_text_TrmMgW",
+    "featured_collection_UjA9Pt",
+    "rich_text_UykY3R",
+    "before_after_image_Uqc9rX",
+    "text_with_icons_hKALFV",
     "slideshow",
     "image-link-blocks",
-    "scrolling-text",
     "collection-list",
     "featured-collection",
     "impact-text",
     "image-with-text-overlay",
-    "media-grid",
     "before-after-image",
     "press",
     "hot-spots",
@@ -1079,6 +1311,7 @@
     "featured-product",
     "feature-chart",
     "faq",
-    "media_grid_dEkg9p"
+    "media_grid_dEkg9p",
+    "scrolling-text"
   ]
 }
