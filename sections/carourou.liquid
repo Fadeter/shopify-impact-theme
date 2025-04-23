@@ -46,19 +46,6 @@
 
 <style>
 
-  
-  @font-face {
-  font-family: 'Radley';
-  src: url('https://cdn.shopify.com/s/files/1/0908/1526/7164/files/Radley-Regular.woff2?v=1745428188') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-      }
-
-* {
-  font-family: 'Radley', serif;
-}
-
-  
   .section-pc-{{section.id}} {
     border-top: solid #000000 0px;
     border-bottom: solid #000000 0px;
@@ -86,13 +73,16 @@
   .hero-heading-pc-{{section.id}} {
     text-align: left;
   }
+ 
 
   .hero-heading-pc-{{section.id}} * {
     margin: 0;
     font-size: {{ heading_size_mobile }}px;
     color: {{ heading_color }};
-    font-weight: {{ heading_weight }};
-    font-family: {{ heading_font.family }}{% if heading_font.fallback_families.size > 0 %}, {{ heading_font.fallback_families }}{% endif %} !important;
+    font-family: 'Radley';
+    src: url('https://cdn.shopify.com/s/files/1/0908/1526/7164/files/Radley-Regular.woff2?v=1745428188') format('woff2');
+    font-weight: normal;
+    font-style: normal;    
     line-height: 130%;
     text-transform: unset;
   }
