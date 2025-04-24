@@ -45,6 +45,36 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "mega_menu_YipY6f": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "test",
+            "layout": "horizontal_center",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify://shop_images/image_3_3e80d429-77c5-43b6-bd5e-a588fc51ecaa.jpg",
+            "image_heading_1": "fefefef",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_2": "shopify://shop_images/image_1_a1ba9b43-0c03-4a0e-85c8-9e25b7e83b53.jpg",
+            "image_heading_2": "fefefe",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_YipY6f"
+      ],
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": true,
