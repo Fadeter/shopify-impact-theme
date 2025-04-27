@@ -154,6 +154,14 @@
     width: 100%;
   }
 
+
+
+
+  
+  ------
+
+
+  
   .hero-image-pc-{{section.id}} {
     border-radius: {{ image_border_radius }}px;
     border: {{ image_border_width }}px {{ image_border_style }} {{ image_border_color }};
@@ -392,6 +400,70 @@
         height: 140px;
         transform: rotate(180deg);
     }
+
+
+
+----------
+
+
+
+
+  /* 1. Masquer l’overflow horizontal */
+.hero-images-wrapper-pc-{{section.id}} {
+  position: relative;
+  overflow: hidden;
+}
+
+/* 2. Forcer le sens horizontal */
+.hero-images-left-pc-{{section.id}} .hero-images-inner-pc-{{section.id}},
+.hero-images-right-pc-{{section.id}} .hero-images-inner-pc-{{section.id}} {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: max-content;            /* pour que le flex s’étende au-delà de son parent */
+  will-change: transform;
+}
+
+/* 3. Animation horizontale */
+.hero-images-left-pc-{{section.id}} .hero-images-inner-pc-{{section.id}} {
+  animation: leftImagesAnimationpc-{{section.id}} {{ animation_speed }}s linear infinite alternate;
+}
+
+.hero-images-right-pc-{{section.id}} .hero-images-inner-pc-{{section.id}} {
+  animation: rightImagesAnimationpc-{{section.id}} {{ animation_speed }}s linear infinite alternate;
+}
+
+@keyframes leftImagesAnimationpc-{{section.id}} {
+  0%   { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes rightImagesAnimationpc-{{section.id}} {
+  0%   { transform: translateX(-50%); }
+  100% { transform: translateX(0%); }
+}
+
+
+
+
+
+
+
+
+
+
+
+  ----------
+
+
+
+
+
+
+
+
+
+  
     {% endif %}
 </style>
 
