@@ -175,11 +175,12 @@
 
 /* mobile (par défaut) */
 .hero-button-pc-{{ section.id }} {
-  display: flex;
   padding-right: 64px;
   padding-left: 64px;
   margin-top: 24px;
-  align-self: flex-start !important;
+   display: flex;
+  justify-content: center;  /* centre horizontalement les enfants */
+  align-items: center;     
 }
 
 /* desktop à partir de 1025px */
