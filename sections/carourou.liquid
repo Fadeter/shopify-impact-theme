@@ -204,60 +204,6 @@
 
   
 }
-
-
-
-  @media screen and (max-width: 1024px) {
-
-    /* 1) Cacher le débordement et passer en horizontal */
-    .hero-images-wrapper-pc-{{ section.id }} {
-      position: relative;
-      overflow: hidden;
-    }
-    .hero-images-inner-pc-{{ section.id }} {
-      display: flex;
-      flex-direction: row;
-      gap: 8px;           /* espace entre vignettes */
-      width: max-content; /* largeur = somme des vignettes */
-      padding: 0 5px;     /* conserve ton padding */
-    }
-
-    /* 2) Tailles des vignettes */
-    .hero-image-pc-{{ section.id }} {
-      box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px; /* conserve ton ombre */
-      flex: 0 0 auto;                               /* ni grow, ni shrink */
-      width: clamp(80px, 30vw, 120px);              /* min 80px, idéal 30vw, max 120px */
-    }
-    .hero-image-pc-{{ section.id }} img {
-      display: block;
-      width: 100%;
-      height: auto;
-      object-fit: cover;   /* ou contain selon si tu veux recadrer ou non */
-    }
-
-    /* 3) Animation : on redéfinit LES MÊMES keyframes, mais en X au lieu de Y */
-    @keyframes leftImagesAnimationpc-{{ section.id }} {
-      0%   { transform: translateX(0); }
-      100% { transform: translateX(-50%); }
-    }
-    @keyframes rightImagesAnimationpc-{{ section.id }} {
-      0%   { transform: translateX(-50%); }
-      100% { transform: translateX(0); }
-    }
-
-    /* 4) Les classes d’animation restent inchangées : elles pointent vers ces keyframes */
-    .hero-images-left-pc-{{ section.id }},
-    .hero-images-right-pc-{{ section.id }} {
-      /* pas besoin de rerécrire ‘animation:…’ ici si tu l’as déjà défini plus haut, 
-         elles utiliseront automatiquement les nouvelles keyframes quand l’écran est ≤1024px */
-    }
-
-  }
-
-
-
-
-
   
   
 
