@@ -105,7 +105,7 @@
         "button_font": "josefin_sans_n4",
         "button_bg_color": "#338895",
         "button_text_color": "#ffffff",
-        "button_border_radius": 4,
+        "button_border_radius": 24,
         "button_border_width": 0,
         "button_border_color": "#000000",
         "button_border_style": "solid",
