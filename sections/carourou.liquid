@@ -208,18 +208,65 @@
 
 
 
+  
 
- .hero-images-left-pc-{{section.id}} .hero-images-inner-pc-{{section.id}},
+  /* 1) Masquer l’overflow horizontal */
+  .hero-images-wrapper-pc-{{section.id}} {
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* 2) Passer en ligne (row) et préparer l’animation */
+  .hero-images-left-pc-{{section.id}} .hero-images-inner-pc-{{section.id}},
   .hero-images-right-pc-{{section.id}} .hero-images-inner-pc-{{section.id}} {
     display: flex;
     flex-direction: row;
-    width: 200px;
-    height: 200px;
-    gap: 8px;            /* écart entre vignettes */ /* largeur = somme des vignettes */
+    gap: 8px;            /* écart entre vignettes */
+    width: max-content;  /* largeur = somme des vignettes */
     will-change: transform;
   }
 
+  /* 3) Contraindre la taille des vignettes */
+  .hero-images-inner-pc-{{section.id}} .hero-image {
+    flex: 0 0 auto;                             /* pas de growth/shrink */
+    width: clamp(80px, 30vw, 120px);            /* mini 80px, maxi 120px, idéale 30% viewport */
+  }
+  .hero-images-inner-pc-{{section.id}} .hero-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;  /* ou contain selon l’effet désiré */
+  }
 
+  /* 4) Animation horizontale */
+  .hero-images-left-pc-{{section.id}} .hero-images-inner-pc-{{section.id}} {
+    animation: leftImagesAnimationpc-{{section.id}} {{ animation_speed }}s linear infinite alternate;
+  }
+  .hero-images-right-pc-{{section.id}} .hero-images-inner-pc-{{section.id}} {
+    animation: rightImagesAnimationpc-{{section.id}} {{ animation_speed }}s linear infinite alternate;
+  }
+
+  @keyframes leftImagesAnimationpc-{{section.id}} {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  @keyframes rightImagesAnimationpc-{{section.id}} {
+    0%   { transform: translateX(-50%); }
+    100% { transform: translateX(0); }
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+  
   
 
   
