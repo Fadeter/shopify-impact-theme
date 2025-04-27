@@ -171,22 +171,19 @@
 
 
 
-
-
 /* mobile (par défaut) */
 .hero-button-pc-{{ section.id }} {
-  padding-right: 48px;
-  padding-left: 48px;
+  padding: 0 48px;
   margin: 0;
 }
 
 /* desktop à partir de 1025px */
 @media (min-width: 1025px) {
   .hero-button-pc-{{ section.id }} {
-    margin: 0 !important;
+    margin-left: 0 !important;
+    margin-right: auto !important;
   }
 }
-
 
 
 
