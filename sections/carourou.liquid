@@ -173,18 +173,19 @@
 
 
 
-
-@media (max-width: 1024px) {
-  .hero-button-pc-{{ section.id }} {
-    margin-left: 0px;       /* ← point-virgule */
-    margin-right: 0px;      /* ← idem */
-    padding-left: 24px;
-    padding-right: 24px;
-  }
+/* mobile (par défaut) */
+.hero-button-pc-{{ section.id }} {
+  padding: 0 24px;
+  margin: 0 auto;
 }
 
-
-
+/* desktop à partir de 1025px */
+@media (min-width: 1025px) {
+  .hero-button-pc-{{ section.id }} {
+    padding: 0 64px;
+    margin: 0 !important;
+  }
+}
 
 
 
