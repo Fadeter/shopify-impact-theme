@@ -173,21 +173,14 @@
 
 
 
-  @media(max-width: 600px) {
-
-  .hero-button-pc-{{section.id}} {
-      margin-top: 40px;
-      max-width: 250px;
-      padding: 16px 24px;
-      font-size: {{ button_size }}px;
-          margin-left: 0;
+<style>
+  @media(max-width: 1024px) {
+   .hero-button-pc-{{section.id}} {
+      margin-left: 0px !important;
+      margin-right: 0px !important;
     }
-    }
-
-
-
-
-
+  }
+</style>
 
 
   
@@ -266,7 +259,7 @@
 </style>
 
 <style>
-  @media(max-width: 1024px) {
+  @media(min-width: 1024px) {
    .hero-button-pc-{{section.id}} {
       margin-left: 0px !important;
       margin-right: 0px !important;
